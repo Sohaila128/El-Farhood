@@ -8,11 +8,11 @@ function MainNavigation() {
     <div class="d-flex">
       <a href="" target="_blank" class="text-white text-decoration-none link-primary d-flex align-items-center">
         <div><img src="images/phone.svg" alt=""></div>
-        <span class="fs-7 mx-1 mt-1">+966 56 627 2746</span>
+        <span  style="white-space:nowrap;" class="fs-7 mx-1 mt-1">+966 56 627 2746</span>
       </a>
       <a href="" target="_blank" class="text-white text-decoration-none link-primary d-flex align-items-center mx-2">
         <div><img src="images/sms.svg" alt=""></div>
-        <span class="fs-7 mx-1 mt-1">operations@alfarhoodport.com</span>
+        <span  style="white-space:nowrap;" class="fs-7 mx-1 mt-1">operations@alfarhoodport.com</span>
       </a>
     </div>
 
