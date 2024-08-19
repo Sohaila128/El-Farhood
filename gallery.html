@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Amatic+SC:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS Files -->
+    <!-- bootstrap css file -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <!-- bootstrap-icon css file -->
+    <link rel="stylesheet" href="Assets/bootstrap-icon/bootstrap-icons.css">
+    <!-- animation library css file -->
+    <link rel="stylesheet" href="Assets/aos/aos.css">
+    <!-- glightbox css file -->
+    <link rel="stylesheet" href="Assets/glightbox/css/glightbox.min.css">
+      <!-- swiper css file -->
+      <link rel="stylesheet" href="Assets/swiper/swiper-bundle.min.css">
+    <!-- FancyBox  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <!-- font-awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--====== Slick css ======-->
+    <link rel="stylesheet" href="css/slick.css">
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- include Navbar  -->
+    <script src="js/renderPageLayout.js"></script>
+    <!-- Template Main CSS File -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- favicon -->
+    <link rel="icon" href="images/logo.svg">
+
+    <title> El Farhood Website</title>
+  </head>
+  <body>
+
+    <!-- Start NavBar  -->
+    <script>
+      MainNavigation();
+    </script>
+    <!-- End NavBar  -->
+
+
+    <section class="py-3 mb-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-sm-12 position-relative">
+            <img src="images/Frame 176.png" class="img-fluid" alt="">
+            <div class="card col-md-5 col-12 border-0 card-gallery py-5 mt-lg-7 d-lg-block d-none rounded-0 position-absolute top-50 start-50 translate-middle">
+              <div class="card-body text-center">
+                <div class="header-part text-center d-flex flex-column justify-content-center position-relative mb-4">
+                  <h3 class="text-black card-title text-capitalize">Gallary</h3>
+                  <div class="border border-black position-absolute translate-middle-x" style="width: 15%; bottom: 0; left: 45% !important;"></div>
+                </div>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </p>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+      </div>
+    </section>
+
+    <!-- section card gallery md screen -->
+    <section class="py-3 d-block d-lg-none">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="card border-0 card-gallery py-5 rounded-0">
+              <div class="card-body text-center">
+                <div class="header-part text-center d-flex flex-column justify-content-center position-relative mb-4">
+                  <h3 class="text-black card-title text-capitalize">Gallary</h3>
+                  <div class="border border-black position-absolute translate-middle-x" style="width: 15%; bottom: 0; left: 45% !important;"></div>
+                </div>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </p>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+      </div>
+    </section>
+    <!-- section card gallery md screen -->
+    <section class="py-5 mt-lg-6">
+      <div class="container">
+        <div class="row">
+          <ul class="nav nav-pills mb-3 d-flex justify-content-center align-items-center" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active rounded-5 mx-2 py-1 text-danger border" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Home</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link rounded-5 mx-2 py-1 text-danger border" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link rounded-5 mx-2 py-1 text-danger border" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link rounded-5 mx-2 py-1 text-danger border" id="pills-four-tab" data-bs-toggle="pill" data-bs-target="#pills-four" type="button" role="tab" aria-controls="pills-four" aria-selected="false">four</button>
+            </li>
+          </ul>
+          <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+              <div>
+                <div class="row">
+                  <div class="col-md-4 mb-3 col-6">
+                    <div class="card d-flex img-wrapper ratio ratio-4x3">
+                      <a href="images/pexels-photo-7519262.jpeg" data-fancybox="gallery" class="text-decoration-none">
+                        <img src="./images/pexels-photo-7519262.jpeg" class="card-img-top h-100 w-100" alt="...">
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-3 col-6">
+                    <div class="card d-flex img-wrapper ratio ratio-4x3">
+                      <a href="images/pexels-photo-6379249.jpeg" data-fancybox="gallery" class="text-decoration-none">
+                        <img src="./images/pexels-photo-6379249.jpeg" class="card-img-top h-100 w-100" alt="...">
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-3 col-6">
+                    <div class="card d-flex img-wrapper ratio ratio-4x3">
+                      <a href="./images/pexels-photo-5615436.jpeg" data-fancybox="gallery" class="text-decoration-none">
+                        <img src="./images/pexels-photo-5615436.jpeg" class="card-img-top h-100 w-100" alt="...">
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-3 col-6">
+                    <div class="card d-flex img-wrapper ratio ratio-4x3">
+                      <a href="./images/pexels-photo-16039941.webp" data-fancybox="gallery" class="text-decoration-none">
+                        <img src="./images/pexels-photo-16039941.webp" class="card-img-top h-100 w-100" alt="...">
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-3 col-6">
+                    <div class="card d-flex img-wrapper ratio ratio-4x3">
+                      <a href="./images/pexels-photo-4256976.jpeg" data-fancybox="gallery" class="text-decoration-none">
+                        <img src="./images/pexels-photo-4256976.jpeg" class="card-img-top h-100 w-100" alt="...">
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-3 col-6">
+                    <div class="card d-flex img-wrapper ratio ratio-4x3">
+                      <a href="./images/pexels-photo-6595779.jpeg" data-fancybox="gallery" class="text-decoration-none">
+                        <img src="./images/pexels-photo-6595779.jpeg" class="card-img-top h-100 w-100" alt="...">
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-3 col-6">
+                    <div class="card d-flex img-wrapper ratio ratio-4x3">
+                      <a href="./images/pexels-photo-4041587.jpeg" data-fancybox="gallery" class="text-decoration-none">
+                        <img src="./images/pexels-photo-4041587.jpeg" class="card-img-top h-100 w-100" alt="...">
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-3 col-6">
+                    <div class="card d-flex img-wrapper ratio ratio-4x3">
+                      <a href="./images/pexels-photo-6572428.jpeg" data-fancybox="gallery" class="text-decoration-none">
+                        <img src="./images/pexels-photo-6572428.jpeg" class="card-img-top h-100 w-100" alt="...">
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-3 col-6">
+                    <div class="card d-flex img-wrapper ratio ratio-4x3">
+                      <a href="./images/pexels-photo-7099669.jpeg" data-fancybox="gallery" class="text-decoration-none">
+                        <img src="./images/pexels-photo-7099669.jpeg" class="card-img-top h-100 w-100" alt="...">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+              <div>
+                <div class="row">
+                  <div class="col-md-4 mb-3 col-6">
+                    <div class="card d-flex img-wrapper ratio ratio-4x3">
+                      <a href="./images/pexels-photo-1544372.jpeg" data-fancybox="gallery" class="text-decoration-none">
+                        <img src="./images/pexels-photo-1544372.jpeg" class="card-img-top h-100 w-100" alt="...">
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-3 col-6">
+                    <div class="card d-flex img-wrapper ratio ratio-4x3">
+                      <a href="./images/pexels-photo-70418.jpeg" data-fancybox="gallery" class="text-decoration-none">
+                        <img src="./images/pexels-photo-70418.jpeg" class="card-img-top h-100 w-100" alt="...">
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-3 col-6">
+                    <div class="card d-flex img-wrapper ratio ratio-4x3">
+                      <a href="./images/pexels-photo-3735930.jpeg" data-fancybox="gallery" class="text-decoration-none">
+                        <img src="./images/pexels-photo-3735930.jpeg" class="card-img-top h-100 w-100" alt="...">
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-3 col-6">
+                    <div class="card d-flex img-wrapper ratio ratio-4x3">
+                      <a href="./images/pexels-photo-5615441.jpeg" data-fancybox="gallery" class="text-decoration-none">
+                        <img src="./images/pexels-photo-5615441.jpeg" class="card-img-top h-100 w-100" alt="...">
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-3 col-6">
+                    <div class="card d-flex img-wrapper ratio ratio-4x3">
+                      <a href="./images/Frame 164.png" data-fancybox="gallery" class="text-decoration-none">
+                        <img src="./images/Frame 164.png" class="card-img-top h-100 w-100" alt="...">
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-3 col-6">
+                    <div class="card d-flex img-wrapper ratio ratio-4x3">
+                      <a href="./images/pexels-photo-5615442.jpeg" data-fancybox="gallery" class="text-decoration-none">
+                        <img src="./images/pexels-photo-5615442.jpeg" class="card-img-top h-100 w-100" alt="...">
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-3 col-6">
+                    <div class="card d-flex img-wrapper ratio ratio-4x3">
+                      <a href="./images/pexels-photo-8765776.jpeg" data-fancybox="gallery" class="text-decoration-none">
+                        <img src="./images/pexels-photo-8765776.jpeg" class="card-img-top h-100 w-100" alt="...">
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-3 col-6">
+                    <div class="card d-flex img-wrapper ratio ratio-4x3">
+                      <a href="./images/Frame 161.png" data-fancybox="gallery" class="text-decoration-none">
+                        <img src="./images/Frame 161.png" class="card-img-top h-100 w-100" alt="...">
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-3 col-6">
+                    <div class="card d-flex img-wrapper ratio ratio-4x3">
+                      <a href="./images/Frame 162.png" data-fancybox="gallery" class="text-decoration-none">
+                        <img src="./images/Frame 162.png" class="card-img-top h-100 w-100" alt="...">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+                <div>
+                  <div class="row">
+                    <div class="col-md-4 mb-3 col-6">
+                      <div class="card d-flex img-wrapper ratio ratio-4x3">
+                        <a href="./images/pexels-photo-7038688.jpeg" data-fancybox="gallery" class="text-decoration-none">
+                          <img src="./images/pexels-photo-7038688.jpeg" class="card-img-top h-100 w-100" alt="...">
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-3 col-6">
+                      <div class="card d-flex img-wrapper ratio ratio-4x3">
+                        <a href="./images/pexels-photo-5990469.jpeg" data-fancybox="gallery" class="text-decoration-none">
+                          <img src="./images/pexels-photo-5990469.jpeg" class="card-img-top h-100 w-100" alt="...">
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-3 col-6">
+                      <div class="card d-flex img-wrapper ratio ratio-4x3">
+                        <a href="./images/pexels-photo-6595780.jpeg" data-fancybox="gallery" class="text-decoration-none">
+                          <img src="./images/pexels-photo-6595780.jpeg" class="card-img-top h-100 w-100" alt="...">
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-3 col-6">
+                      <div class="card d-flex img-wrapper ratio ratio-4x3">
+                        <a href="./images/pexels-photo-4329902.jpeg" data-fancybox="gallery" class="text-decoration-none">
+                          <img src="./images/pexels-photo-4329902.jpeg" class="card-img-top h-100 w-100" alt="...">
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-3 col-6">
+                      <div class="card d-flex img-wrapper ratio ratio-4x3">
+                        <a href="./images/pexels-photo-6595786.jpeg" data-fancybox="gallery" class="text-decoration-none">
+                          <img src="./images/pexels-photo-6595786.jpeg" class="card-img-top h-100 w-100" alt="...">
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-3 col-6">
+                      <div class="card d-flex img-wrapper ratio ratio-4x3">
+                        <a href="./images/pexels-photo-2147993.jpeg" data-fancybox="gallery" class="text-decoration-none">
+                          <img src="./images/pexels-photo-2147993.jpeg" class="card-img-top h-100 w-100" alt="...">
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-3 col-6">
+                      <div class="card d-flex img-wrapper ratio ratio-4x3">
+                        <a href="./images/free-photo-of-containerterminal.jpeg" data-fancybox="gallery" class="text-decoration-none">
+                          <img src="./images/free-photo-of-containerterminal.jpeg" class="card-img-top h-100 w-100" alt="...">
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-3 col-6">
+                      <div class="card d-flex img-wrapper ratio ratio-4x3">
+                        <a href="./images/pexels-photo-3840441.jpeg" data-fancybox="gallery" class="text-decoration-none">
+                          <img src="./images/pexels-photo-3840441.jpeg" class="card-img-top h-100 w-100" alt="...">
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-3 col-6">
+                      <div class="card d-flex img-wrapper ratio ratio-4x3">
+                        <a href="./images/free-photo-of-containerterminal (1).jpeg" data-fancybox="gallery" class="text-decoration-none">
+                          <img src="./images/free-photo-of-containerterminal (1).jpeg" class="card-img-top h-100 w-100" alt="...">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  
+              </div>
+            </div>
+            <div class="tab-pane fade" id="pills-four" role="tabpanel" aria-labelledby="pills-four-tab" tabindex="0">
+                <div>
+                  <div class="row">
+                    <div class="col-md-4 mb-3 col-6">
+                      <div class="card d-flex img-wrapper ratio ratio-4x3">
+                        <a href="./images/pexels-photo-10620467.jpeg" data-fancybox="gallery" class="text-decoration-none">
+                          <img src="./images/pexels-photo-10620467.jpeg" class="card-img-top h-100 w-100" alt="...">
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-3 col-6">
+                      <div class="card d-flex img-wrapper ratio ratio-4x3">
+                        <a href="./images/free-photo-of-containerterminal (2).jpeg" data-fancybox="gallery" class="text-decoration-none">
+                          <img src="./images/free-photo-of-containerterminal (2).jpeg" class="card-img-top h-100 w-100" alt="...">
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-3 col-6">
+                      <div class="card d-flex img-wrapper ratio ratio-4x3">
+                        <a href="./images/free-photo-of-containerterminal (3).jpeg" data-fancybox="gallery" class="text-decoration-none">
+                          <img src="./images/free-photo-of-containerterminal (3).jpeg" class="card-img-top h-100 w-100" alt="...">
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-3 col-6">
+                      <div class="card d-flex img-wrapper ratio ratio-4x3">
+                        <a href="./images/pexels-photo-4481323.jpeg" data-fancybox="gallery" class="text-decoration-none">
+                          <img src="./images/pexels-photo-4481323.jpeg" class="card-img-top h-100 w-100" alt="...">
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-3 col-6">
+                      <div class="card d-flex img-wrapper ratio ratio-4x3">
+                        <a href="./images/free-photo-of-containerhafen.jpeg" data-fancybox="gallery" class="text-decoration-none">
+                          <img src="./images/free-photo-of-containerhafen.jpeg" class="card-img-top h-100 w-100" alt="...">
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-3 col-6">
+                      <div class="card d-flex img-wrapper ratio ratio-4x3">
+                        <a href="./images/istockphoto-1349093190-612x612.jpg" data-fancybox="gallery" class="text-decoration-none">
+                          <img src="./images/istockphoto-1349093190-612x612.jpg" class="card-img-top h-100 w-100" alt="...">
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-3 col-6">
+                      <div class="card d-flex img-wrapper ratio ratio-4x3">
+                        <a href="./images/pexels-photo-4481529.jpeg" data-fancybox="gallery" class="text-decoration-none">
+                          <img src="./images/pexels-photo-4481529.jpeg" class="card-img-top h-100 w-100" alt="...">
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-3 col-6">
+                      <div class="card d-flex img-wrapper ratio ratio-4x3">
+                        <a href="./images/free-photo-of-containers-stored-in-a-crowded-port-ready-to-board.jpeg" data-fancybox="gallery" class="text-decoration-none">
+                          <img src="./images/free-photo-of-containers-stored-in-a-crowded-port-ready-to-board.jpeg" class="card-img-top h-100 w-100" alt="...">
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-3 col-6">
+                      <div class="card d-flex img-wrapper ratio ratio-4x3">
+                        <a href="./images/istockphoto-962386090-612x612.jpg" data-fancybox="gallery" class="text-decoration-none">
+                          <img src="./images/istockphoto-962386090-612x612.jpg" class="card-img-top h-100 w-100" alt="...">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Start Footer  -->
+    <script>
+      MainFooter();
+    </script>
+    <!-- End Footer  -->
+
+    <!-- Start Sidebar  -->
+    <script>
+      includeSidebar();
+    </script>
+    <!-- End Sidebar  -->
+
+    <!--====== BACK TO TP PART START ======-->
+    <script>
+      BtnBackToTop();
+    </script> 
+  <!--====== BACK TO TP PART ENDS ======-->
+
+    <!--====== WhatsApp PART START ======-->
+    <script>
+      WhatsApp();
+    </script> 
+  <!--====== WhatsApp PART ENDS ======-->
+
+
+    <!-- JS Files -->
+    <!-- animation library js file -->
+    <script src="Assets/aos/aos.js"></script>
+    <!-- bootstrap js file -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- pure counter js file -->
+    <script src="Assets/purecounter/purecounter_vanilla.js"></script>
+    <!-- glightbox js file -->
+    <script src="Assets/glightbox/js/glightbox.min.js"></script>
+      <!-- swiper js file -->
+    <script src="Assets/swiper/swiper-bundle.min.js"></script>
+    <!-- Slick js file -->
+    <script src="js/slick.min.js"></script>
+    <script src="js/slick.js"></script>
+    <!-- main js file -->
+    <script src="js/script.js"></script>  
+
+   
+  </body>
+</html>
